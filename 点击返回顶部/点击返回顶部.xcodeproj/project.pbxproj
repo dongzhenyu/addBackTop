@@ -15,6 +15,10 @@
 		402B5AF71C43BF7B00152A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402B5AF51C43BF7B00152A23 /* LaunchScreen.storyboard */; };
 		402B5B031C43C27E00152A23 /* UIScrollView+DDBackTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 402B5B001C43C27E00152A23 /* UIScrollView+DDBackTop.m */; };
 		402B5B041C43C27E00152A23 /* DDBackTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 402B5B021C43C27E00152A23 /* DDBackTopButton.m */; };
+		402B5B0A1C43C4E800152A23 /* fx_top_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 402B5B061C43C4E800152A23 /* fx_top_normal@2x.png */; };
+		402B5B0B1C43C4E800152A23 /* fx_top_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 402B5B071C43C4E800152A23 /* fx_top_normal@3x.png */; };
+		402B5B0C1C43C4E800152A23 /* fx_top_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 402B5B081C43C4E800152A23 /* fx_top_pressed@2x.png */; };
+		402B5B0D1C43C4E800152A23 /* fx_top_pressed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 402B5B091C43C4E800152A23 /* fx_top_pressed@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		402B5B001C43C27E00152A23 /* UIScrollView+DDBackTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DDBackTop.m"; sourceTree = "<group>"; };
 		402B5B011C43C27E00152A23 /* DDBackTopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBackTopButton.h; sourceTree = "<group>"; };
 		402B5B021C43C27E00152A23 /* DDBackTopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBackTopButton.m; sourceTree = "<group>"; };
+		402B5B061C43C4E800152A23 /* fx_top_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fx_top_normal@2x.png"; sourceTree = "<group>"; };
+		402B5B071C43C4E800152A23 /* fx_top_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fx_top_normal@3x.png"; sourceTree = "<group>"; };
+		402B5B081C43C4E800152A23 /* fx_top_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fx_top_pressed@2x.png"; sourceTree = "<group>"; };
+		402B5B091C43C4E800152A23 /* fx_top_pressed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fx_top_pressed@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		402B5AE61C43BF7B00152A23 /* 点击返回顶部 */ = {
 			isa = PBXGroup;
 			children = (
+				402B5B051C43C4E800152A23 /* backBtn */,
 				402B5AFE1C43C26400152A23 /* addTop */,
 				402B5AEA1C43BF7B00152A23 /* AppDelegate.h */,
 				402B5AEB1C43BF7B00152A23 /* AppDelegate.m */,
@@ -95,6 +104,17 @@
 				402B5B021C43C27E00152A23 /* DDBackTopButton.m */,
 			);
 			path = addTop;
+			sourceTree = "<group>";
+		};
+		402B5B051C43C4E800152A23 /* backBtn */ = {
+			isa = PBXGroup;
+			children = (
+				402B5B061C43C4E800152A23 /* fx_top_normal@2x.png */,
+				402B5B071C43C4E800152A23 /* fx_top_normal@3x.png */,
+				402B5B081C43C4E800152A23 /* fx_top_pressed@2x.png */,
+				402B5B091C43C4E800152A23 /* fx_top_pressed@3x.png */,
+			);
+			path = backBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +176,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				402B5AF71C43BF7B00152A23 /* LaunchScreen.storyboard in Resources */,
+				402B5B0A1C43C4E800152A23 /* fx_top_normal@2x.png in Resources */,
 				402B5AF41C43BF7B00152A23 /* Assets.xcassets in Resources */,
 				402B5AF21C43BF7B00152A23 /* Main.storyboard in Resources */,
+				402B5B0B1C43C4E800152A23 /* fx_top_normal@3x.png in Resources */,
+				402B5B0D1C43C4E800152A23 /* fx_top_pressed@3x.png in Resources */,
+				402B5B0C1C43C4E800152A23 /* fx_top_pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +343,7 @@
 				402B5AFD1C43BF7B00152A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
